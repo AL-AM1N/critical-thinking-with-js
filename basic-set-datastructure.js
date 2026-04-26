@@ -39,4 +39,20 @@
 
 // const newArr = Array.from(set);
 
+
 // console.log(newArr); // output: [ 'apple', 'mango', 'banana' ]
+
+// newArr.push("tomato");
+
+// console.log(newArr); // output: [ 'apple', 'mango', 'banana', 'tomato' ]
+
+// .............................................................
+
+// part 4: 
+// set.has("mango") // output: jodi set er moddhe mango thake tahole true return korbe na thakle false return korbe
+
+
+// set.delete("banana")
+
+
+//-----------------------------------------------------------------
