@@ -1,4 +1,4 @@
-// part 1: 
+//? part 1: 
 // const set = new Set();
 
 // // console.log(set); // and:  Set(0) {} 
@@ -12,7 +12,7 @@
 //--------------------------------------------------------------
 
 
-// part 2: set do not count repeated items
+//? part 2: set do not count repeated items
 
 // const set1 = new Set();
 
@@ -29,7 +29,7 @@
 
 //--------------------------------------------------------------------
 
-// part 3: remove duplicate items from an array using set method
+//? part 3: remove duplicate items from an array using set method
 
 // const arr = ["apple", "mango", "banana", "apple", "banana"];
 
@@ -48,7 +48,7 @@
 
 // .............................................................
 
-// part 4: 
+//? part 4: 
 // set.has("mango") // output: jodi set er moddhe mango thake tahole true return korbe na thakle false return korbe
 
 
