@@ -24,6 +24,40 @@ const tagsFromPosts = [
   ["css", "html", "react"],
 ];
 
-const filterTags = [...new Set(tagsFromPosts.flat())];  //! spread (... ) operator use kore array te convert kore felchi
+const filterTags = [...new Set(tagsFromPosts.flat())];  //! spread (... ) operator use kore array te convert kore felchi, "Set" used for remove duplicate items
 
-console.log(filterTags);
+console.log(filterTags);  // output: [ 'javascript', 'react', 'css', 'node', 'express', 'html' ]
+
+//-----------------------------//? Some-------------------------------------------------------------------------------------
+ 
+
+const numbers1 = [1, 4, 5, 3, 7, 8, 5];
+
+const some = numbers1.some((evenNum) => evenNum % 2 === 0)
+
+console.log(some); // output: true (becasue there is at least 1 even number is present)
+
+// aplly "some" to validate the user role
+const currentUserRoles = ["user", "editor", "admin"];
+
+const featureAccessRoles = ["admin", "manager"];
+
+const canAccess = currentUserRoles.some((userRole) => featureAccessRoles.includes(userRole));
+
+console.log(canAccess); // output: true, because "admin" role is present into the currentUserRoles
+
+//-----------------------------//? Array.form()-------------------------------------------------------------------------------------
+
+// general form:
+const arr = Array.from([1,2, 3], (value, index) => value * value);
+console.log(arr); // output: [ 1, 4, 9 ]
+
+
+
+//! for "pagination" we can use this:
+
+const range = (start, stop, step) => {
+  return Array.from({length: Math.ceil((stop-start)/step)}, (_, index) => index + 1);
+}
+
+console.log(range(1, 10, 2));
