@@ -20,7 +20,7 @@ const postsArray = [
 //? Solution
 
 const result = postsArray.reduce((acc, post) => {
-    acc[player.id] = post;
+    acc[player.id] = post;  //! general pattern: object[key] = value;
     return acc;
 }, {});
 
