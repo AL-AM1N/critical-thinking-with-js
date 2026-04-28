@@ -4,7 +4,7 @@
  * !Note:
  * 1. It follows LIFO (Last In First Out)
  * 2. there are three operations: push(), pop() , peek()
- * 3. peek() means it will show the top element
+ * 3. peek() means it will show the top or last element
  */
 
 class Stack {
