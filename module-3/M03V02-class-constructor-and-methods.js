@@ -1,7 +1,8 @@
 //? Basic Class constructor and methods
 /**
  * !Note:
- * We can use class multiple times, because it works seperately or independantly
+ * 1. We can use class multiple times, because it works seperately or independantly
+ * 2. When we use function inside the class then it's called method.
  */
 
 class Counter {
